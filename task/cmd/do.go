@@ -27,7 +27,6 @@ var doCmd = &cobra.Command{
 }
 
 func init() {
-	fmt.Println("-------init from the do.go----------")
 	RootCmd.AddCommand(doCmd)
 
 }
